@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Jumping monkey - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\odin\AppData\Local\Temp\RSPF578.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Jumping monkey.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\C++\TP5\Jumping monkey.cpp"
+]
+Creating command line "cl.exe @C:\Users\odin\AppData\Local\Temp\RSPF578.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+Jumping monkey.cpp
+
+
+
+<h3>Results</h3>
+Jumping monkey.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
