@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Low Power - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\odin\AppData\Local\Temp\RSP7E0E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Low Power.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\C++\TP2\Low Power.cpp"
+]
+Creating command line "cl.exe @C:\Users\odin\AppData\Local\Temp\RSP7E0E.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Low Power.cpp
+f:\code\c++\tp2\low power.cpp(36) : warning C4101: 'd' : unreferenced local variable
+
+
+
+<h3>Results</h3>
+Low Power.obj - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

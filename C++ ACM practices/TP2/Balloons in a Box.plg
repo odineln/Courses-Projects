@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Balloons in a Box - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\odin\AppData\Local\Temp\RSP7A8A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Balloons in a Box.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\C++\TP2\Balloons in a Box.cpp"
+]
+Creating command line "cl.exe @C:\Users\odin\AppData\Local\Temp\RSP7A8A.tmp" 
+Creating temporary file "C:\Users\odin\AppData\Local\Temp\RSP7A8B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Balloons in a Box.pdb" /debug /machine:I386 /out:"Debug/Balloons in a Box.exe" /pdbtype:sept 
+".\Debug\Balloons in a Box.obj"
+]
+Creating command line "link.exe @C:\Users\odin\AppData\Local\Temp\RSP7A8B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Balloons in a Box.cpp
+F:\code\C++\TP2\Balloons in a Box.cpp(50) : warning C4101: 'j' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+Balloons in a Box.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
