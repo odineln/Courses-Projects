@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Bribing Eve - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\odin\AppData\Local\Temp\RSP8C60.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Bribing Eve.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\C++\TP6\Bribing Eve.cpp"
+]
+Creating command line "cl.exe @C:\Users\odin\AppData\Local\Temp\RSP8C60.tmp" 
+Creating temporary file "C:\Users\odin\AppData\Local\Temp\RSP8C61.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Bribing Eve.pdb" /debug /machine:I386 /out:"Debug/Bribing Eve.exe" /pdbtype:sept 
+".\Debug\Bribing Eve.obj"
+]
+Creating command line "link.exe @C:\Users\odin\AppData\Local\Temp\RSP8C61.tmp"
+<h3>Output Window</h3>
+Compiling...
+Bribing Eve.cpp
+F:\code\C++\TP6\Bribing Eve.cpp(54) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::iterator,std::pair<double const ,int>,std::pair<double const ,int> &,std::pair<double const ,int> *,int>' : identifier was truncated to '255' characters in the debug information
+F:\code\C++\TP6\Bribing Eve.cpp(54) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::const_iterator,std::pair<double const ,int>,std::pair<double const ,int> const &,std::pair<double const ,int> const *,int>' : identifier was truncated to '255' characters in the debug information
+F:\code\C++\TP6\Bribing Eve.cpp(54) : warning C4786: 'std::pair<std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::iterator,std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::iterator>' : identifier was truncated to '255' characters in the debug information
+F:\code\C++\TP6\Bribing Eve.cpp(54) : warning C4786: 'std::pair<std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::const_iterator,std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+f:\code\microsoft visual studio\vc98\include\xtree(183) : warning C4786: 'std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::~_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >' : identifier was truncated to '255' characters in the debug information
+f:\code\microsoft visual studio\vc98\include\xtree(160) : warning C4786: 'std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >' : identifier was truncated to '255' characters in the debug information
+f:\code\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::pair<std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::iterator,bool>::pair<std::_Tree<double,std::pair<double const ,int>,std::map<double,int,std::less<double>,std::allocator<int> >::_Kfn,std::less<double>,std::allocator<int> >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+Bribing Eve.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>
